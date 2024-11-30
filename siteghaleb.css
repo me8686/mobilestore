@@ -119,3 +119,27 @@ nav a:hover {
     height: 100px;
     border: 5px;
 }
+
+footer {
+    background-color: tomato;
+    padding: 20px;
+    display: flex; /* اضافه کردن فلکس برای نمایش افقی */
+    justify-content: space-between; /* فاصله بین بخش‌ها */
+}
+
+footer section {
+    background-color: chartreuse;
+    padding: 10px;
+    margin-bottom: 0; /* حذف فاصله زیر */
+    flex: 1; /* هر بخش به اندازه مساوی فضا رو اشغال کنه */
+    margin-right: 10px; /* فاصله بین بخش‌ها */
+}
+
+aside a {
+    color: white; /* تغییر رنگ لینک‌ها به سفید */
+    text-decoration: none; /* حذف خط زیر لینک */
+}
+
+aside a:hover {
+    color: yellow; /* تغییر رنگ لینک در حالت hover */
+}

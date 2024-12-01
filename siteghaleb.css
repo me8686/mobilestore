@@ -1,10 +1,10 @@
 /* تنظیمات کلی صفحه */
 body {
-    font-family: 'B Nazanin', sans-serif; /* فونت بی‌نازنین */
-    text-align: center; /* مرکزچین کردن تمام متن‌ها */
+    font-family: 'B Nazanin', sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* رنگ پس‌زمینه کلی */
+    background-color: #f0f0f0;
 }
 
 /* هدر */
@@ -39,25 +39,22 @@ nav a:hover {
     color: yellow;
 }
 
-/* بخش اصلی (main) */
 main {
     background-color: brown;
     padding: 10px;
     display: flex;
-    gap: 20px; /* فاصله بین aside و section */
-    justify-content: center; /* مرکزچین کردن محتوا */
+    gap: 20px;
+    justify-content: center;
 }
 
-/* سایدبار (aside) و بخش محصولات (section) */
 aside, section {
     background-color: blue;
     margin: 5px;
     border-radius: 10px;
-    min-height: 150px; /* ارتفاع حداقل */
+    min-height: 150px;
     padding: 20px;
 }
 
-/* فوتر */
 footer {
     background-color: tomato;
     padding: 20px;
@@ -69,7 +66,6 @@ footer section {
     margin-bottom: 10px;
 }
 
-/* رنگ و استایل متن‌ها */
 .font1 {
     color: darkorange;
 }
@@ -79,7 +75,6 @@ footer section {
     font-size: 20px;
 }
 
-/* استایل برای لینک‌های منو */
 nav a {
     text-decoration: none;
     color: white;
@@ -87,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-    color: yellow; /* تغییر رنگ لینک در حالت hover */
+    color: yellow;
 }
 #img3{
     width: 200px;
@@ -123,23 +118,22 @@ nav a:hover {
 footer {
     background-color: tomato;
     padding: 20px;
-    display: flex; /* اضافه کردن فلکس برای نمایش افقی */
-    justify-content: space-between; /* فاصله بین بخش‌ها */
-}
+    display: flex;
+    justify-content: space-between;
 
 footer section {
     background-color: chartreuse;
     padding: 10px;
-    margin-bottom: 0; /* حذف فاصله زیر */
-    flex: 1; /* هر بخش به اندازه مساوی فضا رو اشغال کنه */
-    margin-right: 10px; /* فاصله بین بخش‌ها */
+    margin-bottom: 0;
+    flex: 1;
+    margin-right: 10px;
 }
 
 aside a {
-    color: white; /* تغییر رنگ لینک‌ها به سفید */
-    text-decoration: none; /* حذف خط زیر لینک */
+    color: white;
+    text-decoration: none;
 }
 
 aside a:hover {
-    color: yellow; /* تغییر رنگ لینک در حالت hover */
+    color: yellow;
 }

@@ -1,0 +1,100 @@
+body {
+    font-family: 'B Nazanin', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #17a2b8;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.custom-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+
+body {
+    background-image: url('a1.webp');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: 100% auto;
+  }
+  
+
+
+main {
+    background-image: url('background-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: white; 
+    padding: 50px 20px; 
+    min-height: 100vh; 
+}
+
+
+main section {
+    margin-bottom: 40px; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.382); 
+    border-radius: 8px;
+}
+
+
+main section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+main section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#mtn
+{
+    color: black;
+}
+#ab
+{
+    text-align: center;
+    color: aqua;
+}
+#s
+{
+    color: rgb(152, 238, 240);
+    text-align: center;
+}
+
+#cw
+{
+    text-align: right;
+    color: black;
+}
+
+

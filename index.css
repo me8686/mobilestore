@@ -1,0 +1,14 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.title1{
+    color: blueviolet;
+    text-shadow: 5px 5px 5px;
+}
+.imgsize{
+    width: 200px;
+    height: 200px;
+}

@@ -1,1 +1,1 @@
-# mobilestore
+# site_bootstrap
